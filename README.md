@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Tailwind CSS React Demo Page
+
+Tailwind CSS React Demo Page.
+
+[Live Demo](https://dmitriy24s.github.io/tailwind-react-demo/) 👈
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
