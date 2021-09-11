@@ -1,44 +1,46 @@
+import { chicago, colorado, malibu, miami, seattle, toronto } from "../img";
+
 const popularDestinationsData = [
   {
     city: "Toronto",
     averagePrice: 120,
     propertyCount: 76,
-    imageUrl: "img/toronto.jpg",
+    imageUrl: `${toronto}`,
     imageAlt: "Toronto skyline",
   },
   {
     city: "Malibu",
     averagePrice: 215,
     propertyCount: 43,
-    imageUrl: "img/malibu.jpg",
+    imageUrl: `${malibu}`,
     imageAlt: "Cliff in Malibu",
   },
   {
     city: "Chicago",
     averagePrice: 130,
     propertyCount: 115,
-    imageUrl: "img/chicago.jpg",
+    imageUrl: `${chicago}`,
     imageAlt: "Chicago skyline",
   },
   {
     city: "Seattle",
     averagePrice: 135,
     propertyCount: 63,
-    imageUrl: "img/seattle.jpg",
+    imageUrl: `${seattle}`,
     imageAlt: "Seattle skyline",
   },
   {
     city: "Colorado",
     averagePrice: 85,
     propertyCount: 47,
-    imageUrl: "img/colorado.jpg",
+    imageUrl: `${colorado}`,
     imageAlt: "Lake in Colorado",
   },
   {
     city: "Miami",
     averagePrice: 115,
     propertyCount: 86,
-    imageUrl: "img/miami.jpg",
+    imageUrl: `${miami}`,
     imageAlt: "Beach in Miami",
   },
 ];

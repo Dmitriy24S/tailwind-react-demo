@@ -1,5 +1,6 @@
 import "tailwindcss/tailwind.css";
 import popularDestinationsData from "./data/popularDestinationsData";
+import { beachWork, logo } from "./img";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         "
         >
           <div className="xl:max-w-xl">
-            <img className="h-10" src="img/logo.svg" alt="Workcation" />
+            <img className="h-10" src={logo} alt="Workcation" />
             <img
               className="
               mt-6
@@ -28,7 +29,7 @@ function App() {
               object-center
               lg:hidden
             "
-              src="img/beachWork.jpg"
+              src={beachWork}
               alt="Woman workcationing on the beach"
             />
             <h1
@@ -113,7 +114,7 @@ function App() {
         <div className="hidden relative lg:block 2xl:col-span-3">
           <img
             className="absolute inset-0 w-full h-full object-cover object-center"
-            src="img/beachWork.jpg"
+            src={beachWork}
             alt="Woman workcationing on the beach"
           />
         </div>
