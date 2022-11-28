@@ -1,5 +1,7 @@
 # Tailwind CSS React Demo Page
 
+![Design preview for Tailwind Demo Page](./design-preview/design-preview.png)
+
 Tailwind CSS React Demo Page.
 
 [Live Demo](https://dmitriy24s.github.io/tailwind-react-demo/) 👈
